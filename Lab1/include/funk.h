@@ -2,4 +2,4 @@
 
 #include <iostream>
 
-int calculate(int divider, int bound);
+int calc(int divider_value, int bound_value);
