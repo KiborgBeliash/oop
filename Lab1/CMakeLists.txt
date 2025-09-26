@@ -19,10 +19,12 @@ add_executable(Lab1_tests
     test/test.cpp
 )
     
+
 target_include_directories(Lab1_tests PRIVATE 
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/funk
 )
+
 
 target_link_libraries(Lab1_tests PRIVATE gtest gtest_main)
 
